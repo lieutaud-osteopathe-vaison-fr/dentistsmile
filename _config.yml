@@ -1,6 +1,6 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: Christophe Lieutaud - Cabinet d’Ostéopathie
+description: "Installé depuis 2014, Christophe Lieutaud est Ostépathe diplômé de l’école IFOGA d’Avignon après 5 années d’études et un mémoire sur les dysfonctions musculaires liées à la pratique sportive."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: svg/min/logo.svg
@@ -8,34 +8,25 @@ logo_url: svg/min/logo.svg
 # Hero
 hero: 
     hero_img: hero.jpg
-    hero_title: DentistSmile
-    hero_description: A responsive Jekyll theme for dental clinics.
+    hero_title: Christophe Lieutaud
+    hero_description: Cabinet d’Ostéopathie à Vaison la Romaine
 
 # Contact form
 api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
+    phone: +33 6 14 53 60 38
+    emergency: 15
+    email:  contact@lieutaud-osteopathe-vaison.fr
+    address: Cabinet médical Le Lynx<br/>1 rue des Frères Lumières<br/>84110 Vaison la Romaine
 
 # Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: 10:00 – 15:00
-
+monday_friday-title: Lundi au Vendredi
+monday_friday-value: de 8h à 20H
 # Testimonials
 testimonials:
     testimonials_img: parallax.jpg
-
-# Map
-map:
-    zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
-    address_details: svg/min/logo.svg
-
 # Social settings
 facebook: http://facebook.com
 twitter: http://twitter.com
@@ -45,7 +36,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2020 Christophe Lieutaud - Cabinet d’Ostéopathie - Tous droits réservés
 
 # Build settings
 markdown: kramdown
