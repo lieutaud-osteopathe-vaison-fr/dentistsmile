@@ -7,7 +7,7 @@ logo_url: svg/min/logo.svg
 
 # Hero
 hero: 
-    hero_img: hero.jpg
+    hero_img: Christophe-Lieutaud-Osteopathe-hero.jpg
     hero_title: Christophe Lieutaud
     hero_description: Cabinet d’Ostéopathie à Vaison la Romaine
 
@@ -40,6 +40,9 @@ copyright: © 2020 Christophe Lieutaud - Cabinet d’Ostéopathie - Tous droits 
 
 # Build settings
 markdown: kramdown
+sass:
+    sass_dir: _scss
+    style: compressed
 
 exclude: [
     package.json,
@@ -48,7 +51,8 @@ exclude: [
     .sass-cache,
     Gemfile,
     Gemfile.lock,
-    .gitignore
+    .gitignore,
+    _sass
 ]
 
 # Theme Settings

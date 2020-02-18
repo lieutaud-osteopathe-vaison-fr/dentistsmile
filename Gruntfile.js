@@ -24,22 +24,28 @@ module.exports = function(grunt) {
         }
       }
     },
-
     sass: {
       dist: {
         options: {
-          outputStyle: "compressed"
+          style: "expanded",
         },
-        files: {
-          "css/main-unprefixed.css": "_scss/main.scss"
-        }
-      }
+        files: [
+          {
+            expand: true,
+            cwd: "_scss/",
+            src: ["*.scss"],
+            dest: "css/",
+            ext: ".css",
+          },
+        ],
+      },
+      dev: {}, // À vous de le faire ! vous verrez que certaines options Sass sont plus intéressantes en mode dev que d'autres.
     },
 
     autoprefixer: {
       main: {
-        src: "css/main-unprefixed.css",
-        dest: "css/main.css"
+        src: "css/styles-unprefixed.css",
+        dest: "css/styles.css"
       }
     },
 
@@ -117,6 +123,5 @@ module.exports = function(grunt) {
 
   // Define the tasks
   grunt.registerTask("serve", ["shell:jekyllServe"]);
-  grunt.registerTask("build", ["shell:jekyllBuild"]);
   grunt.registerTask("default", ["watch"]);
 };

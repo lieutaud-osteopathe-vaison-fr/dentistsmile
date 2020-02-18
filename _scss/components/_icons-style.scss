@@ -27,6 +27,8 @@ svg.svg-color, path.svg-color{
 }
 
 .phone-link {
-    color:white;
-    text-decoration: none;
+    a {
+        color: white;
+        text-decoration: none;
+    }
 }
