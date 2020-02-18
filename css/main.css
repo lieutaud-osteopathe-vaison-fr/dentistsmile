@@ -8591,4 +8591,9 @@ img.image-perso {
   height: 500px;
 }
 
+.list-group.infos {
+  width: 500px;
+  margin: auto;
+}
+
 /*# sourceMappingURL=main.css.map */
