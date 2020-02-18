@@ -2,7 +2,7 @@
 title: Christophe Lieutaud - Cabinet d’Ostéopathie
 description: "Installé depuis 2014, Christophe Lieutaud est Ostépathe diplômé de l’école IFOGA d’Avignon après 5 années d’études et un mémoire sur les dysfonctions musculaires liées à la pratique sportive."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
+url: "lieutaud-osteopathe-vaison.fr" # the name of your domain
 logo_url: svg/min/logo.svg
 
 # Hero

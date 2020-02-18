@@ -3706,38 +3706,38 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-default {
   color: #fff;
-  background-color: #3dadb2;
-  border-color: #3dadb2;
+  background-color: #0596DE;
+  border-color: #0596DE;
 }
 .btn-default:focus, .btn-default.focus {
   color: #fff;
-  background-color: #30888c;
-  border-color: #1c5153;
+  background-color: #0474ac;
+  border-color: #024261;
 }
 .btn-default:hover {
   color: #fff;
-  background-color: #30888c;
-  border-color: #2d8184;
+  background-color: #0474ac;
+  border-color: #046ea2;
 }
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
   color: #fff;
-  background-color: #30888c;
-  border-color: #2d8184;
+  background-color: #0474ac;
+  border-color: #046ea2;
 }
 .btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus, .open > .btn-default.dropdown-toggle:hover, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle.focus {
   color: #fff;
-  background-color: #276e71;
-  border-color: #1c5153;
+  background-color: #035d89;
+  border-color: #024261;
 }
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
   background-image: none;
 }
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
-  background-color: #3dadb2;
-  border-color: #3dadb2;
+  background-color: #0596DE;
+  border-color: #0596DE;
 }
 .btn-default .badge {
-  color: #3dadb2;
+  color: #0596DE;
   background-color: #fff;
 }
 
@@ -6588,7 +6588,7 @@ button.close {
   padding: 3px 8px;
   color: #fff;
   text-align: center;
-  background-color: #3aa6aa;
+  background-color: #058fd4;
   border-radius: 4px;
 }
 
@@ -6605,56 +6605,56 @@ button.close {
   left: 50%;
   margin-left: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #3aa6aa;
+  border-top-color: #058fd4;
 }
 .tooltip.top-left .tooltip-arrow {
   bottom: 0;
   right: 5px;
   margin-bottom: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #3aa6aa;
+  border-top-color: #058fd4;
 }
 .tooltip.top-right .tooltip-arrow {
   bottom: 0;
   left: 5px;
   margin-bottom: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #3aa6aa;
+  border-top-color: #058fd4;
 }
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
   margin-top: -5px;
   border-width: 5px 5px 5px 0;
-  border-right-color: #3aa6aa;
+  border-right-color: #058fd4;
 }
 .tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
   margin-top: -5px;
   border-width: 5px 0 5px 5px;
-  border-left-color: #3aa6aa;
+  border-left-color: #058fd4;
 }
 .tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
   margin-left: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #3aa6aa;
+  border-bottom-color: #058fd4;
 }
 .tooltip.bottom-left .tooltip-arrow {
   top: 0;
   right: 5px;
   margin-top: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #3aa6aa;
+  border-bottom-color: #058fd4;
 }
 .tooltip.bottom-right .tooltip-arrow {
   top: 0;
   left: 5px;
   margin-top: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #3aa6aa;
+  border-bottom-color: #058fd4;
 }
 
 .popover {
@@ -7352,7 +7352,7 @@ td.visible-print {
 .form input:focus,
 .form textarea:focus {
   outline: 0;
-  border-color: #3dadb2;
+  border-color: #0596DE;
   transition: all 0.3s ease;
   box-shadow: none;
 }
@@ -7481,7 +7481,7 @@ p:last-child {
 /* Links
 -------------------------------*/
 a {
-  color: #3dadb2;
+  color: #0596DE;
   text-decoration: none;
 }
 a:hover, a:focus {
@@ -7535,19 +7535,19 @@ strong {
 
 .navbar-default .navbar-nav > li > a:hover {
   color: #fff;
-  background: #40b4ba;
+  background: #059de8;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
-  background: #369b9f;
+  background: #0485c5;
 }
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
-  background: #3dadb2;
+  background: #0596DE;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -7563,7 +7563,7 @@ strong {
 -------------------------------------------------*/
 .main-footer {
   color: #fff;
-  background: #40b4ba;
+  background: #059de8;
   text-align: center;
 }
 .main-footer small {
@@ -7581,7 +7581,7 @@ strong {
 }
 .hero .icon {
   margin-right: 10px;
-  color: #3dadb2;
+  color: #0596DE;
   vertical-align: top;
 }
 
@@ -7604,7 +7604,7 @@ strong {
 }
 .hero-content h1 {
   margin: 0 0 5px;
-  color: #3dadb2;
+  color: #0596DE;
 }
 .hero-content p {
   font-size: 1.125rem;
@@ -7653,13 +7653,13 @@ strong {
   }
 }
 .three-shade-col [class^=col-]:nth-child(1) {
-  background: #3dadb2;
+  background: #0596DE;
 }
 .three-shade-col [class^=col-]:nth-child(2) {
-  background: #40b4ba;
+  background: #059de8;
 }
 .three-shade-col [class^=col-]:nth-child(3) {
-  background: #44babf;
+  background: #05a3f2;
 }
 .three-shade-col .icon {
   font-size: 2rem;
@@ -7696,7 +7696,7 @@ strong {
 }
 .treatments .icon {
   font-size: 1.5rem;
-  color: #3dadb2;
+  color: #0596DE;
 }
 
 /* ABOUT
@@ -7730,7 +7730,7 @@ strong {
   right: 0;
   bottom: 0;
   z-index: 1;
-  background: rgba(61, 173, 178, 0.5);
+  background: rgba(5, 150, 222, 0.5);
 }
 .testimonials .container-fluid {
   position: relative;
@@ -7822,13 +7822,13 @@ Example showing how to change the color/size of the icons:
   text-align: center;
 }
 .boxed-icon .icon {
-  color: #3dadb2;
+  color: #0596DE;
   font-size: 1.5rem;
 }
 
 svg.svg-color, path.svg-color {
-  color: #3dadb2;
-  fill: #3dadb2;
+  color: #0596DE;
+  fill: #0596DE;
 }
 
 .phone-link a {
@@ -7856,7 +7856,7 @@ svg.svg-color, path.svg-color {
   position: absolute;
   top: 100%;
   width: 100%;
-  background: #369b9f;
+  background: #0485c5;
   transform: translate(0px, 0px) perspective(10000px) rotateX(-90deg);
   transform-origin: top;
   transition: transform 250ms linear;
@@ -7877,10 +7877,10 @@ svg.svg-color, path.svg-color {
   text-decoration: none;
 }
 .expandable-box-bottom a:first-child, .expandable-box-bottom span:first-child {
-  background: #3aa6aa;
+  background: #058fd4;
 }
 .expandable-box-bottom a:last-child, .expandable-box-bottom span:last-child {
-  background: #44babf;
+  background: #05a3f2;
 }
 .expandable-box-bottom .icon {
   color: #fff;
@@ -7898,7 +7898,7 @@ svg.svg-color, path.svg-color {
 .team {
   overflow: hidden;
   color: #fff;
-  background: #40b4ba;
+  background: #059de8;
 }
 .team h2, .team h4 {
   color: #fff;
@@ -7908,20 +7908,20 @@ svg.svg-color, path.svg-color {
   margin: 0;
 }
 .team .expandable-box {
-  border-right: solid 1px #48bbc0;
+  border-right: solid 1px #06a7f7;
 }
 .team .expandable-box-top {
   padding: 20px;
-  background: #3dadb2;
+  background: #0596DE;
 }
 .team .expandable-box-bottom a, .team .expandable-box-bottom span {
   width: 50%;
 }
 .team .expandable-box-bottom a:first-child, .team .expandable-box-bottom span:first-child {
-  background: #3aa6aa;
+  background: #058fd4;
 }
 .team .expandable-box-bottom a:last-child, .team .expandable-box-bottom span:last-child {
-  background: #44babf;
+  background: #05a3f2;
 }
 .team .expandable-box-bottom .icon {
   font-size: 1.5rem;
