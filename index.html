@@ -189,7 +189,11 @@ layout: default
     <a href="{{ site.baseurl }}/img/gallery/large/{{ images.image_large }}"
        class="gallery-item expandable-box image-link">
         <div class="expandable-box-top">
-            <img class="lazy" data-src="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
+            <picture>
+                <source srcset="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb_webp }}" type="image/webp">
+                <source srcset="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" type="image/jpeg">
+                <img class="lazy" data-src="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
+            </picture>
         </div>
         <div class="expandable-box-bottom">
             <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
