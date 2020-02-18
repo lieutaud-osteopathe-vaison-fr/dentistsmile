@@ -8,6 +8,18 @@
                 style="height:15px;margin-bottom:3px;vertical-align:middle;width:auto"
                 src="https://pro.doctolib.fr/external_button/doctolib-white-transparent.png"
                 alt="Doctolib"/></a>
+        <div itemscope itemtype="http://schema.org/Organization">
+            <span itemprop="name">{{site.title}}</span><br>
+            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <span>{{ site.contact.location.label }}</span><br>
+                <span itemprop="streetAddress">{{ site.contact.location.street }}</span><br>
+                <span itemprop="addressLocality">{{ site.contact.location.city }}</span>
+                <span itemprop="postalCode">{{ site.contact.location.zipcode }}</span>
+                <span itemprop="addressRegion"></span>
+            </div>
+            Téléphone: <span itemprop="telephone">{{ site.contact.phone }}</span>
+        </div>
+        <br/>
         <small>{% if site.copyright %} {{ site.copyright }} {% endif %}</small>
 
     </div>

@@ -20,6 +20,11 @@ contact:
     emergency: 15
     email:  contact@lieutaud-osteopathe-vaison.fr
     address: Cabinet médical Le Lynx<br/>1 rue des Frères Lumières<br/>84110 Vaison la Romaine
+    location:
+        label: Cabinet médical Le Lynx
+        street: 1 rue des Frères Lumières
+        zipcode: 84110
+        city: Vaison la Romaine
 
 # Opening hours
 monday_friday-title: Lundi au Vendredi

@@ -31,4 +31,51 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ "/favicon.png" | prepend: site.baseurl }}">
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="{{site.title}}">
+    <meta property="og:url" content="https://{{site.url}}">
+    <meta property="og:image" content="https://{{site.url}}/img/Christophe-Lieutaud-Osteopathe.jpg">
+    <meta property="business:contact_data:street_address" content="1 rue des Frères Lumières">
+    <meta property="business:contact_data:locality" content="Vaison la Romaine">
+    <meta property="business:contact_data:region" content="">
+    <meta property="business:contact_data:postal_code" content="84110">
+    <meta property="business:contact_data:country_name" content="France">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Physiotherapy",
+            "name": "{{site.title}}",
+            "image": "https://{{site.url}}/img/Christophe-Lieutaud-Osteopathe.jpg",
+            "@id": "",
+            "url": "https://{{site.url}}",
+            "telephone": "+33 6 14 53 60 38",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1 rue des Frères Lumières",
+                "addressLocality": "Vaison la Romaine",
+                "postalCode": "84110",
+                "addressCountry": "FR"
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "08:00",
+                "closes": "20:00"
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": "{{site.title}}",
+            "url": "https://{{site.url}}"
+        }
+    </script>
 </head>
