@@ -3,7 +3,8 @@ layout: default
 ---
 
 <!-- Start Hero -->
-<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: 1920px; min-height: 500px; background-position: center center">
+<div class="hero"
+     style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: 1920px; min-height: 500px; background-position: center center">
     <div class="hero-content">
         <div class="container-fluid">
             <div class="hero-content-inner">
@@ -18,26 +19,38 @@ layout: default
 <!-- Start 3 columns -->
 <div class="three-shade-col">
     <div class="col-sm-4">
-        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
+        <svg class="icon icon-envelope-o">
+            <use xlink:href="#icon-envelope-o"></use>
+        </svg>
         <h3>Contact & prise de RDV</h3>
         <ul class="text-left">
-            {% if site.contact.phone %}<li class="phone-link"><strong>Phone&nbsp;:</strong>&nbsp;<a href="tel:{{ site.contact.phone }}">{{ site.contact.phone }}</a></li>{% endif %}
-            {% if site.contact.emergency %}<li class="phone-link"><strong>Emergency&nbsp;:</strong>&nbsp;<a href="tel:{{ site.contact.emergency }}">{{ site.contact.emergency }}</a></li>{% endif %}
+            {% if site.contact.phone %}
+            <li class="phone-link"><strong>Phone&nbsp;:</strong>&nbsp;<a href="tel:{{ site.contact.phone }}">{{
+                site.contact.phone }}</a></li>
+            {% endif %}
+            {% if site.contact.emergency %}
+            <li class="phone-link"><strong>Emergency&nbsp;:</strong>&nbsp;<a href="tel:{{ site.contact.emergency }}">{{
+                site.contact.emergency }}</a></li>
+            {% endif %}
         </ul>
     </div>
     <div class="col-sm-4">
-        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
+        <svg class="icon icon-clock-o">
+            <use xlink:href="#icon-clock-o"></use>
+        </svg>
         <h3>Heures de consultation</h3>
         <ul class="text-left">
             <li><strong>{{ site.monday_friday-title}}&nbsp;:</strong>&nbsp;{{ site.monday_friday-value}}</li>
         </ul>
     </div>
     <div class="col-sm-4">
-        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+        <svg class="icon icon-map-marker">
+            <use xlink:href="#icon-map-marker"></use>
+        </svg>
         <h3>Adresse</h3>
-            <p>
-                {{ site.contact.address }}
-            </p>
+        <p>
+            {{ site.contact.address }}
+        </p>
     </div>
 </div>
 <!-- End 3 columns -->
@@ -45,12 +58,13 @@ layout: default
 <!-- Start About -->
 <div id="about" class="about">
     <div class="container-fluid">
-        <h2 class="section-title">Christophe Lieutaud</h2>
+        <h2 class="section-title text-uppercase">Christophe Lieutaud</h2>
 
         <div class="row">
             <div class="col-sm-6">
                 <h3>Ostéoathe D.O. agréé par le Ministère de la Santé</h3>
-                <p>Installé depuis 2014, Christophe Lieutaud est Ostépathe diplômé de l’école IFOGA d’Avignon après 5 années d’études et un mémoire sur les dysfonctions musculaires liées à la pratique sportive.</p>
+                <p>Installé depuis 2014, Christophe Lieutaud est Ostépathe diplômé de l’école IFOGA d’Avignon après 5
+                    années d’études et un mémoire sur les dysfonctions musculaires liées à la pratique sportive.</p>
                 <p>Formations principale et continues suivies par le praticien :</p>
                 <div class="media">
                     <div class="media-left">
@@ -59,7 +73,9 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Diplômé ostéopathe DO en 2014 par l'Ecole IFOGA d’Avignon: cette école est agréée par le Ministère de la Santé et fait partie des 10 écoles françaises aptes à attribuer le titre d'ostéopathe avec valeur nationale</p>
+                        <p>Diplômé ostéopathe DO en 2014 par l'Ecole IFOGA d’Avignon: cette école est agréée par le
+                            Ministère de la Santé et fait partie des 10 écoles françaises aptes à attribuer le titre
+                            d'ostéopathe avec valeur nationale</p>
                     </div>
                 </div>
 
@@ -70,7 +86,8 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Diplôme Universitaire du Sport obtenu en 2015 à la Faculté d’Avignon pour le traitement ostéopathique des sportifs</p>
+                        <p>Diplôme Universitaire du Sport obtenu en 2015 à la Faculté d’Avignon pour le traitement
+                            ostéopathique des sportifs</p>
                     </div>
                 </div>
                 <div class="media">
@@ -80,7 +97,8 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>L'ATM (articulation temporaux mandibulaire), occlusion dentaire et l'ostéopathie: 2016 - Avignon- Christian De France)
+                        <p>L'ATM (articulation temporaux mandibulaire), occlusion dentaire et l'ostéopathie: 2016 -
+                            Avignon- Christian De France)
                         </p>
                     </div>
                 </div>
@@ -91,13 +109,15 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Approche thérapeutique manuelle par les Techniques Non Forcées (TNF) basées sur l’anatomie pour les membres inférieurs – 2020 Montpellier – Docteur Jean-Marie Soulier
+                        <p>Approche thérapeutique manuelle par les Techniques Non Forcées (TNF) basées sur l’anatomie
+                            pour les membres inférieurs – 2020 Montpellier – Docteur Jean-Marie Soulier
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6">
-                <img class="image-perso" src="img/Christophe-Lieutaud-Osteopathe.jpg" alt="Christophe Lieutaud Osteopathe Vaison la Romaine" height="500">
+                <img class="image-perso" src="img/Christophe-Lieutaud-Osteopathe.jpg"
+                     alt="Christophe Lieutaud Osteopathe Vaison la Romaine" height="500">
             </div>
         </div>
     </div>
@@ -107,17 +127,18 @@ layout: default
 <!-- Start Treatments -->
 <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">L’ostéopathie </h2>
-        <p>L'ostéopathie est une pratique visant à diagnostiquer et apaiser les dysfonctionnements qui peuvent toucher des parties du corps humain.</p>
+        <h2 class="section-title text-uppercase">L’ostéopathie </h2>
+        <p>L'ostéopathie est une pratique visant à diagnostiquer et apaiser les dysfonctionnements qui peuvent toucher
+            des parties du corps humain.</p>
         <p>Cette pratique permet une action efficace pour:</p>
         <br/>
         <div class="row">
             {% for treatment in site.data.treatments %}
-                <div class="col-sm-6 col-md-6">
-                    <div class="icon-box">
-                        <p>{{ treatment.description }}</p>
-                    </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="icon-box">
+                    <p>{{ treatment.description }}</p>
                 </div>
+            </div>
             {% endfor %}
         </div>
         <br/>
@@ -128,7 +149,7 @@ layout: default
 <!-- Start Treatments -->
 <div id="infos" class="about infos">
     <div class="container-fluid">
-        <h2 class="section-title">Honoraires du cabinet</h2>
+        <h2 class="section-title text-uppercase">Honoraires du cabinet</h2>
         <div class="row">
             <div class="col-md-5 col-md-offset-4">
                 <ul class="list-group">
@@ -143,21 +164,37 @@ layout: default
 
     </div>
 </div>
+
+<div id="rdv" class="about infos">
+    <div class="container-fluid">
+        <h2 class="section-title text-uppercase">Prendre rendez-vous</h2>
+        <div class="row">
+            <div class="col-xs-12">
+                <iframe scrolling="no"
+                        src="https://partners.doctolib.fr/osteopathe/vaison-la-romaine/christophe-lieutaud?speciality_id=10&locale=fr"
+                        style="height:304px; min-height: 304px; width: 100%"></iframe>
+                <script src="https://www.doctolib.fr/js/iframeResizer.js"></script>
+                <script>iFrameResize()</script>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- End Treatments -->
 <!-- Start Gallery -->
 <div id="gallery" class="gallery">
-        
-    <h2 class="section-title">Le cabinet</h2>
+
+    <h2 class="section-title text-uppercase">Le cabinet</h2>
 
     {% for images in site.data.gallery %}
-        <a href="{{ site.baseurl }}/img/gallery/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
-            <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
-            </div>
-            <div class="expandable-box-bottom">
-                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
-            </div>
-        </a>
+    <a href="{{ site.baseurl }}/img/gallery/large/{{ images.image_large }}"
+       class="gallery-item expandable-box image-link">
+        <div class="expandable-box-top">
+            <img src="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
+        </div>
+        <div class="expandable-box-bottom">
+            <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+        </div>
+    </a>
     {% endfor %}
 
 </div>
@@ -165,6 +202,7 @@ layout: default
 
 <!-- Start Map -->
 <div id="location">
-    <iframe width="100%" height="300px" frameborder="0" allowfullscreen src="https://umap.openstreetmap.fr/fr/map/christophe-lieutaud-cabinet-dosteopathie_420698?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=null&onLoadPanel=none&captionBar=false"></iframe>
+    <iframe width="100%" height="300px" frameborder="0" allowfullscreen
+            src="https://umap.openstreetmap.fr/fr/map/christophe-lieutaud-cabinet-dosteopathie_420698?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=null&onLoadPanel=none&captionBar=false"></iframe>
 </div>
 <!-- End Map -->
