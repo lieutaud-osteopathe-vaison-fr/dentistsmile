@@ -1,6 +1,8 @@
 (function($) {
     'use strict';
-
+    $('.lazy').lazy({
+        placeholder: "data:image/gif;base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7..."
+    });
     /* Hide menu after click
     ----------------------------------------------*/
     $('.navbar-nav li a').click(function(event) {
@@ -103,6 +105,6 @@
         });
         
     });
-          
+
 })(jQuery);
 

@@ -3,8 +3,7 @@ layout: default
 ---
 
 <!-- Start Hero -->
-<div class="hero"
-     style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: 1920px; min-height: 500px; background-position: center center">
+<div class="hero lazy" data-src="{{ site.baseurl }}/img/{{ site.hero.hero_img }}" style="background-repeat: no-repeat; background-size: 1920px; min-height: 500px; background-position: center center">
     <div class="hero-content">
         <div class="container-fluid">
             <div class="hero-content-inner">
@@ -117,7 +116,7 @@ layout: default
                 </div>
             </div>
             <div class="col-sm-6">
-                <img class="image-perso" src="img/Christophe-Lieutaud-Osteopathe.jpg"
+                <img class="image-perso lazy" data-src="img/Christophe-Lieutaud-Osteopathe.jpg"
                      alt="Christophe Lieutaud Osteopathe Vaison la Romaine" height="400">
             </div>
         </div>
@@ -190,7 +189,7 @@ layout: default
     <a href="{{ site.baseurl }}/img/gallery/large/{{ images.image_large }}"
        class="gallery-item expandable-box image-link">
         <div class="expandable-box-top">
-            <img src="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
+            <img class="lazy" data-src="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
         </div>
         <div class="expandable-box-bottom">
             <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>

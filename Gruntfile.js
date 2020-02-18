@@ -11,6 +11,8 @@ module.exports = function(grunt) {
           "js/bootstrap.js",
           "js/owl.carousel.js",
           "js/jquery.magnific-popup.js",
+          "js/jquery.lazy.min.js",
+          "js/jquery.lazy.plugins.min.js",
           "js/custom.js"
         ],
         dest: "js/all.js"
