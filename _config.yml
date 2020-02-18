@@ -60,6 +60,16 @@ exclude: [
     _sass
 ]
 
+plugins:
+    - jekyll-gzip
+
+gzip:
+    replace_files: true
+    extensions:
+        - '.html'
+        - '.css'
+        - '.js'
+
 # Theme Settings
 analytics: UA-158688602-1
 google_verification: 232asJQfcVhLQMJRpTQKXuyUS1jIHjAVlmLQLldwU8E
